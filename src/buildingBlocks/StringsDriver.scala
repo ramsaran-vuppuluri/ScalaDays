@@ -1,5 +1,7 @@
 /**
   * @author Ram Saran Vuppuluri.
+  *
+  *         This object contains basic String operations in Scala. Strings in Scala are considered as sequence of characters.
   */
 package buildingBlocks
 
@@ -7,7 +9,7 @@ object StringsDriver {
   def main(args: Array[String]): Unit = {
 
     /*
-    String equality opeartions
+    String equality operations. == in scala is null safe.
      */
     val string1 = "Hello";
     val string2 = "Hello";
@@ -93,7 +95,7 @@ object StringsDriver {
 
     val pattern = "([0-9]+) ([A-Za-z]+)".r;
 
-    val pattern(count,fruit)="100 Bananas";
+    val pattern(count, fruit) = "100 Bananas";
 
     println(s"Count = $count Fruit = $fruit");
   }

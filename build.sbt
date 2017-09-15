@@ -1,4 +1,4 @@
-name := "Strings"
+name := "LearningCurve"
 
 version := "0.1"
 
